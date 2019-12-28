@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fifi's Midterm Game</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Kalam|Schoolbell&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/jeff.css">
+
+</head>
+<body>
+	<div id="logo">
+		<img src="images/logo.png">
+	</div>
+	<div class="score-board">
+		<div id="suju-label" class="score-name"><img src="images/suju.png">Suju</div>
+		<div id="jeff-label" class="score-name"><img src="images/jeff.png">Jeff</div>
+		<span id="suju-score">0</span> - <span id="jeff-score">0</span>
+		<br>
+		<button id="reset-score" onclick="reset()">Reset</button>
+
+	</div>
+	<div id="instruction">
+		<h1 class="chooseCat">
+		Help Jeff gets all his treat!
+		</h1>
+		<p>
+		Play it like 'Rock, Paper, Scissor'!
+		<br>
+		Dried Salmon = Rock
+		<br>
+		Chew stick = paper
+		<br>
+		Greenies = Scissor
+		</p>
+		<h2>Pick your treat:</h2>
+	</div>
+	<div id="rps_buttons">
+		<button class="rps_btn btn_rock">Rock</button>
+		<button class="rps_btn btn_paper">Paper</button>
+		<button class="rps_btn btn_scissors">Scissors</button>
+	</div>
+	<div id="rps_result" class="">
+		
+	</div>
+
+	<script src="js/rsp.js"></script>	
+	<script type="text/javascript">
+		document.getElementById('rps_result').style.fontSize="40px";
+		document.getElementById('rps_result').style.color="black";
+	</script>
+
+</body>
+</html>

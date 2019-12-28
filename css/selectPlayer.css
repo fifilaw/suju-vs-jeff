@@ -1,0 +1,52 @@
+body {
+    background: #afd6f2;
+    color:white;
+    font-family: 'Kalam', cursive;
+    }
+#choosePlayer{
+    margin: 30px auto; 
+    padding: 5px;
+    font-size: 30px;   
+}
+#choosePlayer button{
+    width: 140px;
+    font-size: 25px;
+}
+#choosePlayer button:hover{
+    background: grey;    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div{
+    text-align: center;
+    margin: 1% auto;
+    color: #292b2d;
+}
+#logo{
+    scale:90%;
+    width:900px;
+    height:250px;
+    margin:1px auto;
+    text-align: center;
+}
+
+#logo img {
+    display:inline-flex;
+	background-repeat:no-repeat;
+	background-color:#afd6f2;
+}
+
+#choosePlayer img{
+    width: 90px;
+    height: 100px;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
